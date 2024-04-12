@@ -1,0 +1,51 @@
+#navbar{
+    width: 100vw;
+    height: 6vh;
+    box-shadow: 0 0 20px hsla(0, 0%, 0%, .25);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+
+}
+
+#navbar #links{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+#navbar #links a ion-icon{
+    color: rgb(255, 255, 255);
+    transition: .2s;
+    cursor: pointer;
+}
+#navbar #links a:hover ion-icon{
+    transition: .2s;
+    color: #3880ff;
+}
+
+#navbar #back a ion-icon{
+    color: rgb(255, 255, 255);
+    transition: .2s;
+    cursor: pointer;
+}
+#navbar #back a:hover ion-icon{
+    color: #3880ff;
+    transition: .2s;
+}
+
+#navbar #back a,
+#navbar #logo,
+#navbar #links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#navbar #container{
+    display: flex;
+    gap: 20px;
+}
+
+

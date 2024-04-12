@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Nunito", sans-serif; 
+    color: #fff;
+    overflow-x: hidden;
+}
+
+body{
+    background: #232323;
+}
+
+#content{
+    padding: 20px;
+    display: flex;
+}
+
+#profile{
+    width: 25vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    overflow: hidden;
+}
+
+#profile #container2{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    box-shadow:  0 0 20px hsla(0, 0%, 0%, .25);
+    border-radius: 12px;
+}
+
+#profile #container2 hr{
+    width: 18vw;
+    box-shadow: 0 0 20px hsla(0, 0%, 0%, .25);
+}
+#profile #container2 h1{
+    font-size: 40px;
+    padding-top: 20px;
+}
+
+#profile #container2 #about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+
+#profile #container2 #about textarea{
+    width: 18vw;
+    height: 15vh;
+    padding: 20px;
+    background: transparent;
+    outline: none;
+    border: solid 1px hsla(100, 100%, 100%, .10);
+    border-radius: 8px;
+    resize: none;
+    font-size: 16px;
+    font-weight: 700;
+    transition: .2s;
+    box-shadow: 0 0 20px hsla(0, 0%, 0%, .25);
+}
+
+#profile #container2 #about textarea:focus{
+    border: solid 1px #fff;
+    transition: .2s;
+    box-shadow: 0 0 20px hsla(0, 0%, 0%, .25);
+}
+
+#profile #container2 #about button{
+    width: 18vw;
+    padding: 10px;
+    border: solid 1px hsla(100, 100%, 100%, .10);
+    background: transparent;
+    border-radius: 8px;
+    color: hsla(100, 100%, 100%, .5);
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 0 0 20px hsla(0, 0%, 0%, .25);
+    transition: .2s;
+}
+
+#profile #container2 #about button:hover{
+    transition: .2s;
+    color: hsla(100, 100%, 100%, 1);
+    border: solid 1px hsla(100, 100%, 100%, 1);
+}
