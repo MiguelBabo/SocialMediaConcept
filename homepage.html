@@ -19,13 +19,14 @@
                 <a href="index.html"><ion-icon name="arrow-back-outline" size="large"></ion-icon></a>
             </div>
             <div id="logo">
-                <h1>The Social Media</h1>
+                <h1>The Social Media - Homepage</h1>
             </div>
         </div>
         
         <div id="links">
-            <a href=""><ion-icon name="home-outline" size="large"></ion-icon></a>
-            <a href=""><ion-icon name="people-outline" size="large"></ion-icon></a>
+            <a><ion-icon name="home-outline" size="large"></ion-icon></a>
+            <a href="friends.html"><ion-icon name="people-outline" size="large"></ion-icon></a>
+            <button><ion-icon name="pencil-outline" size="large" id="writePost"></ion-icon></button>
         </div>
     </section>
     <section id="content">
@@ -38,15 +39,35 @@
                     <textarea id="textBox" placeholder="#Write something about yourself!"></textarea>
                     <button id="okButton">Ok</button>
                 </div>            
-            </div>        
+            </div>   
+            <div id="createPost">
+                <h1>What about to #Post something?</h1>
+                <hr>
+                <div>
+                    <input type="text" placeholder="Write something here" id="postIpt">
+                    <button id="postBtn">#Post</button>
+                </div>
+            </div>     
         </section>
         <section id="posts">
-            <div class="post">
-                <h1>@Author</h1>
-                <h4>Theme</h4>
-                <p>Post in itself</p>
-    
-                <button>Like</button>
+            <!-- <div class="post">
+                <div>
+                    <h1>Miguel</h1>
+                    <p>asd</p>
+                 </div>
+                 <hr>
+                 <div id="likes">
+                    <div id="cont">
+                        <button id="like"><ion-icon name="heart-outline" size="large" ></ion-icon></button>
+                        <h2 id="likesQtt">0</h2>
+                    </div>
+                    <button><ion-icon name="trash-outline" size="large" id="delete"></ion-icon></button>
+                 </div>
+            </div> -->
+            <div id="empty">
+                <ion-icon name="ellipsis-horizontal-outline" size="large"></ion-icon>
+                <h1>The feed is empty</h1>
+                <h4>Start #Posting something</h4>
             </div>
         </section>
     </section>

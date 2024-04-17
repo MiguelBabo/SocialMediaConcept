@@ -9,7 +9,7 @@ function login(){
     }else{
         errorMsg.style.display = "none"
 
-        localStorage.setItem("username", userNameInput.value)
+        sessionStorage.setItem("username", userNameInput.value)
         window.location.href = "homepage.html"
     }
 }
